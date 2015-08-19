@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="/../../../dbxsd/dataset.xsd">
+
+    <T_ATTRIBUTES_OF_INQUIRY F_INQUIRY_ID="1"
+                             F_ID="1"
+                             F_NAME="attributeName1"
+                             F_VALUE="attributeValue1"/>
+
+    <T_ATTRIBUTES_OF_INQUIRY F_INQUIRY_ID="2"
+                             F_ID="2"
+                             F_NAME="attributeName2"
+                             F_VALUE="attributeValue2"/>
+
+    <T_INQUIRIES F_INQUIRY_ID="1"
+                 F_DESCRIPTION="Description1"
+                 F_CUSTOMER_NAME="TestCustomer1"
+                 F_TOPIC_ID="1"/>
+
+    <T_INQUIRIES F_INQUIRY_ID="2"
+                 F_DESCRIPTION="Description2"
+                 F_CUSTOMER_NAME="TestCustomer2"
+                 F_TOPIC_ID="2"/>
+
+    <T_TOPICS F_TOPIC_ID="1" F_TOPIC_NAME="topicName1"/>
+    <T_TOPICS F_TOPIC_ID="2" F_TOPIC_NAME="topicName2"/>
+</dataset>

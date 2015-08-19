@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="/../../../dbxsd/dataset.xsd">
+
+    <T_TOPICS F_TOPIC_ID="1" F_TOPIC_NAME="topicName1"/>
+    <T_TOPICS F_TOPIC_ID="2" F_TOPIC_NAME="topicName2"/>
+</dataset>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns="itcrowd_test" targetNamespace="itcrowd_test">
+	<xsd:element name="T_INQUIRIES" type="T_INQUIRIES__type" />
+	<xsd:element name="dbmaintain_scripts" type="dbmaintain_scripts__type" />
+	<xsd:element name="T_ATTRIBUTES_OF_INQUIRY" type="T_ATTRIBUTES_OF_INQUIRY__type" />
+	<xsd:element name="T_TOPICS" type="T_TOPICS__type" />
+	<xsd:complexType name="T_INQUIRIES__type">
+		<xsd:attribute name="F_DESCRIPTION" use="optional" />
+		<xsd:attribute name="F_CREATE_DATE" use="optional" />
+		<xsd:attribute name="F_MODIFIED_WHEN" use="optional" />
+		<xsd:attribute name="F_TOPIC_ID" use="optional" />
+		<xsd:attribute name="F_CUSTOMER_NAME" use="optional" />
+		<xsd:attribute name="F_INQUIRY_ID" use="optional" />
+	</xsd:complexType>
+	<xsd:complexType name="dbmaintain_scripts__type">
+		<xsd:attribute name="succeeded" use="optional" />
+		<xsd:attribute name="file_last_modified_at" use="optional" />
+		<xsd:attribute name="executed_at" use="optional" />
+		<xsd:attribute name="checksum" use="optional" />
+		<xsd:attribute name="file_name" use="optional" />
+		<xsd:attribute name="version" use="optional" />
+	</xsd:complexType>
+	<xsd:complexType name="T_ATTRIBUTES_OF_INQUIRY__type">
+		<xsd:attribute name="F_ID" use="optional" />
+		<xsd:attribute name="F_NAME" use="optional" />
+		<xsd:attribute name="F_VALUE" use="optional" />
+		<xsd:attribute name="F_INQUIRY_ID" use="optional" />
+	</xsd:complexType>
+	<xsd:complexType name="T_TOPICS__type">
+		<xsd:attribute name="F_TOPIC_ID" use="optional" />
+		<xsd:attribute name="F_TOPIC_NAME" use="optional" />
+	</xsd:complexType>
+</xsd:schema>

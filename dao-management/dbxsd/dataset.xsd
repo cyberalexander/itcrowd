@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:dflt="itcrowd_test">
+	<xsd:import namespace="itcrowd_test" schemaLocation="itcrowd_test.xsd" />
+	<xsd:element name="dataset">
+		<xsd:complexType>
+			<xsd:choice minOccurs="0" maxOccurs="unbounded">
+				<xsd:element name="T_INQUIRIES" type="dflt:T_INQUIRIES__type" />
+				<xsd:element name="dbmaintain_scripts" type="dflt:dbmaintain_scripts__type" />
+				<xsd:element name="T_ATTRIBUTES_OF_INQUIRY" type="dflt:T_ATTRIBUTES_OF_INQUIRY__type" />
+				<xsd:element name="T_TOPICS" type="dflt:T_TOPICS__type" />
+				<xsd:any namespace="itcrowd_test" />
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

@@ -1,0 +1,15 @@
+com.leonovich.itcrowd.dao
+com.leonovich.itcrowd.dao.configuration
+com.leonovich.itcrowd.dao.exception
+com.leonovich.itcrowd.dao.util
+com.leonovich.itcrowd.domain
+com.leonovich.itcrowd.model
+com.leonovich.itcrowd.service
+com.leonovich.itcrowd.service.exception
+com.leonovich.itcrowd.service.facade
+com.leonovich.itcrowd.service.util
+com.leonovich.itcrowd.util
+com.leonovich.itcrowd.web.configuration
+com.leonovich.itcrowd.web.controller
+com.leonovich.itcrowd.web.exception
+com.leonovich.itcrowd.web.util
